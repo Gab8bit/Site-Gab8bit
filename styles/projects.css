@@ -1,0 +1,67 @@
+.projects{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #2a3327ad;
+    color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    text-align: center;
+}
+
+
+
+.immagine{
+    height: 200px;
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nomi{
+    text-align: center;
+    color: #ffffff;
+    font: 400 18px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+}
+
+.nome{
+    border-radius: 18px;
+    background-color: rgba(85, 84, 84, 0);
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+
+    border-color: white;
+    border-style: dashed;
+    border-width: 2px;
+}
+.nome:hover{
+    height: 250px;
+    animation: bgcolornome 5s;
+}
+
+@keyframes bgcolornome{
+    0%{background-color: #ffffff00;}
+    25%{background-color: rgba(3, 80, 3, 0.281);};
+    50%{background-color: rgba(3, 80, 3, 0.596);};
+    75%{background-color: rgba(3, 80, 3, 0.644);};
+    100%{background-color: rgba(3, 80, 3, 0.692);};
+
+}
+
+.descrizione{
+    color: rgb(180, 180, 180);
+}
+
+.linkproj{
+    color: rgba(65, 167, 235, 0.76);
+    font-weight: bold;
+}

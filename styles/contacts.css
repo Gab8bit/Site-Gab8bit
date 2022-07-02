@@ -1,0 +1,26 @@
+.contacts{
+    text-align: center;
+}
+
+.linkcontacts{
+    display: inline-block;
+}
+
+.iconscontacts{
+    width: 80px;
+    height: 80px;
+    padding: 40px;
+    transition: transform .4s;
+}
+
+.iconscontacts:hover{
+    transform: scale(1.5);
+}
+
+.credits{
+    color: rgb(70, 70, 70);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+    font-weight: 500;
+    font-size: 18;
+}

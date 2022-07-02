@@ -1,0 +1,53 @@
+.littlebio{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 40;
+    text-shadow: 2px 0 0 #3a3939, -2px 0 0 #3a3939, 0 2px 0 #3a3939, 0 -2px 0 #3a3939, 1px 1px #3a3939, -1px -1px 0 #3a3939, 1px -1px 0 #3a3939, -1px 1px 0 #3a3939;
+    height: 3%;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 4px;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background-image: linear-gradient(to right, #39749b, #51a873);
+    /* box-shadow: 3px 4px #2c2c2c52; */
+    animation: float 5s ease-in-out infinite;
+}
+
+.job{
+    font-weight: normal;
+}
+
+#randomText{
+    font-style: italic;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

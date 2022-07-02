@@ -1,0 +1,37 @@
+.link{
+  padding: 12px;
+  background-color: #7c7a7a2d;
+  color: white;
+  transition: 1s background-color;
+  font-size: 18;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  font-weight: bold;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px #2c2c2c52; */
+}
+
+
+
+.link:hover{
+  background-color: #23921f8c;
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+  
+.link:active {
+  text-decoration: none;
+}
+

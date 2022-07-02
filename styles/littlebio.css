@@ -34,7 +34,13 @@
 
 .job{
     font-weight: normal;
+    text-shadow: 2px 2px #2b2a2a60;
+    transition: color 2s;
 }
+
+.job:hover{
+    color:rgb(115, 255, 0);
+   }
 
 #randomText{
     font-style: italic;

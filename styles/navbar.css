@@ -10,6 +10,9 @@
   border-width: thin;
   font-weight: bold;
   border-radius: 10px;
+  display: inline-block;
+  zoom: 1; 
+  *display: inline;
   /* box-shadow: 5px 5px #2c2c2c52; */
 }
 
